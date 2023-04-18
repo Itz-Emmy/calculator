@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Arithmetic Calculator</title>
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+  <main class="calc-main">
+    <div class="main">
+      <h1>ARITHMETIC CALCULATOR</h1>
+      <div id="buttons" class="container">
+        <p id="buffer" hidden></p>
+
+        <input type="text" id="calc-display" readonly />
+        <div class="buttons">
+          <button id="clear" class="btn-val operator" type="button">
+            &#x21e4;
+          </button>
+          <button class="btn-val operator" type="button" value="%" id="%">
+            &#37;
+          </button>
+          <button id="power" class="btn-val operator" type="button">
+            CE
+          </button>
+          <button class="btn-val operator" type="button" value="/">
+            &divide;
+          </button>
+        </div>
+        <div class="buttons">
+          <button id="seven" class="btn-val number" type="button" value="7">
+            7
+          </button>
+          <button id="eight" class="btn-val number" type="button" value="8">
+            8
+          </button>
+          <button id="nine" class="btn-val number" type="button" value="9">
+            9
+          </button>
+          <button class="btn-val operator" type="button" value="*">
+            &times;
+          </button>
+        </div>
+        <div class="buttons">
+          <button id="four" class="btn-val number" type="button" value="4">
+            4
+          </button>
+          <button id="five" class="btn-val number" type="button" value="5">
+            5
+          </button>
+          <button id="six" class="btn-val number" type="button" value="6">
+            6
+          </button>
+          <button class="btn-val operator" type="button" value="-">
+            &minus;
+          </button>
+        </div>
+        <div class="buttons">
+          <button id="one" class="btn-val number" type="button" value="1">
+            1
+          </button>
+          <button id="two" class="btn-val number" type="button" value="2">
+            2
+          </button>
+          <button id="three" class="btn-val number" type="button" value="3">
+            3
+          </button>
+          <button class="btn-val operator" type="button" value="+">
+            &plus;
+          </button>
+        </div>
+        <div class="buttons">
+          <button id="decimal" class="btn-val number" type="button" value=".">
+            .
+          </button>
+          <button id="zero" class="btn-val number" type="button" value="0">
+            0
+          </button>
+          <button id="plus-minus" class="btn-val operator" type="button" value="-/+">
+            &mnplus;
+          </button>
+          <button id="=" class="btn-val operator" type="button" value="=">
+            &equals;
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="des">
+      <p class="designer">
+        Made with
+        <span class="heart">&#x2764;</span>
+        by Emmanuel Nereus Agbonyeme <br />
+        Front-End Web Developer
+      </p>
+    </div>
+  </main>
+
+
+  <script src="calculator.js"></script>
+</body>
+
+</html>
